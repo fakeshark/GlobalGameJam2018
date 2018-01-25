@@ -15,6 +15,7 @@ namespace GlobalGameJam2018
         public Form1()
         {
             InitializeComponent();
+            // comment
         }
     }
 }
