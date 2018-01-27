@@ -191,5 +191,179 @@
   <ItemGroup>
     <None Include="bin\Debug\Graphics\splash1.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\backArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\nextArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\1PSTART.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\2PSTART.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\at.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\instructions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\wideButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\Y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\sword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\panelBlack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\warriorSelect.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\wizardSelect.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\elfSelect.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\dash.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

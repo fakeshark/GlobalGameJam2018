@@ -28,24 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlSplash = new System.Windows.Forms.Panel();
             this.btn1PlayerStart = new System.Windows.Forms.Button();
             this.btn2PlayerStart = new System.Windows.Forms.Button();
             this.btnInstructions = new System.Windows.Forms.Button();
             this.btnExitGame = new System.Windows.Forms.Button();
+            this.pnlSplash = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // pnlSplash
-            // 
-            this.pnlSplash.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlSplash.BackgroundImage = global::GlobalGameJam2018.Properties.Resources.splash1;
-            this.pnlSplash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pnlSplash.Location = new System.Drawing.Point(57, 9);
-            this.pnlSplash.Name = "pnlSplash";
-            this.pnlSplash.Size = new System.Drawing.Size(932, 472);
-            this.pnlSplash.TabIndex = 0;
             // 
             // btn1PlayerStart
             // 
@@ -83,7 +71,7 @@
             // btnExitGame
             // 
             this.btnExitGame.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExitGame.Location = new System.Drawing.Point(852, 613);
+            this.btnExitGame.Location = new System.Drawing.Point(804, 554);
             this.btnExitGame.Name = "btnExitGame";
             this.btnExitGame.Size = new System.Drawing.Size(185, 45);
             this.btnExitGame.TabIndex = 4;
@@ -91,11 +79,26 @@
             this.btnExitGame.UseVisualStyleBackColor = true;
             this.btnExitGame.Click += new System.EventHandler(this.button4_Click);
             // 
+            // pnlSplash
+            // 
+            this.pnlSplash.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlSplash.BackColor = System.Drawing.Color.Black;
+            this.pnlSplash.BackgroundImage = global::GlobalGameJam2018.Properties.Resources.sword;
+            this.pnlSplash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pnlSplash.Location = new System.Drawing.Point(57, 75);
+            this.pnlSplash.Name = "pnlSplash";
+            this.pnlSplash.Size = new System.Drawing.Size(932, 323);
+            this.pnlSplash.TabIndex = 0;
+            // 
             // SplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
+            this.BackgroundImage = global::GlobalGameJam2018.Properties.Resources.panelBlack;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1049, 670);
             this.Controls.Add(this.btnExitGame);
             this.Controls.Add(this.btnInstructions);
