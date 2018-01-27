@@ -45,5 +45,21 @@ namespace GlobalGameJam2018
         {
             this.Close();
         }
+
+        private void btn1PlayerStart_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PlayerSelection OnePlayerGame = new PlayerSelection();
+            OnePlayerGame.Closed += (s, args) => this.Close();
+            OnePlayerGame.Show();
+        }
+
+        private void btn2PlayerStart_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PlayerSelection TwoPlayerGame = new PlayerSelection(true);
+            TwoPlayerGame.Closed += (s, args) => this.Close();
+            TwoPlayerGame.Show();
+        }
     }
 }

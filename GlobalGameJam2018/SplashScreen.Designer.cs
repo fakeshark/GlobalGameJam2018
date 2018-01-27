@@ -56,6 +56,7 @@
             this.btn1PlayerStart.TabIndex = 1;
             this.btn1PlayerStart.Text = "1P. START";
             this.btn1PlayerStart.UseVisualStyleBackColor = true;
+            this.btn1PlayerStart.Click += new System.EventHandler(this.btn1PlayerStart_Click);
             // 
             // btn2PlayerStart
             // 
@@ -66,6 +67,7 @@
             this.btn2PlayerStart.TabIndex = 2;
             this.btn2PlayerStart.Text = "2P. START";
             this.btn2PlayerStart.UseVisualStyleBackColor = true;
+            this.btn2PlayerStart.Click += new System.EventHandler(this.btn2PlayerStart_Click);
             // 
             // btnInstructions
             // 
