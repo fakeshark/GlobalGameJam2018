@@ -868,6 +868,7 @@
             this.Name = "NameEntry";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NameEntry";
+            this.Load += new System.EventHandler(this.NameEntry_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);

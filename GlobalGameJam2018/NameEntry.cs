@@ -7,19 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace GlobalGameJam2018
 {
     public partial class NameEntry : Form
     {
+        WindowsMediaPlayer bgm = new WindowsMediaPlayer();
+        WindowsMediaPlayer sfx = new WindowsMediaPlayer();
+
         public NameEntry()
         {
             InitializeComponent();
+            bgm.URL = @"Audio\nameEntry.mp3";
+            sfx.URL = @"Audio\nameEntryClick.wav";
+            bgm.settings.playCount = 999;
         }
+
+        private void NameEntry_Load(object sender, EventArgs e)
+        {
+            bgm.controls.play();
+        }
+
         string playerName = string.Empty;
 
         private void btnLetter_Click(object sender, EventArgs e)
         {
+            sfx.controls.play();
             Button clickedButton = sender as Button;
             playerName += clickedButton.Tag.ToString();
             RefreshName();
@@ -40,6 +54,7 @@ namespace GlobalGameJam2018
 
         private void btnCommand_Click(object sender, EventArgs e)
         {
+            sfx.controls.play();
             Button clickedButton = sender as Button;
             string command = clickedButton.Tag.ToString();
             switch (command)
@@ -63,10 +78,12 @@ namespace GlobalGameJam2018
                     break;
 
                 case "SAVE":
-                    MessageBox.Show("Your name will be saved as: " + playerName);
+                    if (playerName != "")
+                    {
+                        MessageBox.Show("Your name will be saved as: " + playerName);
+                    }                    
                     break;
             }
-
         }
     }
 }

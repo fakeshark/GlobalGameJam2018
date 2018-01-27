@@ -35,6 +35,7 @@ namespace GlobalGameJam2018
 
         private void btnCharacterType_Click(object sender, EventArgs e)
         {
+            SplashScreen.bgm.controls.stop();
             string selectedCharacter = btnCharacterType.Text;
             this.Hide();
             NameEntry enterName = new NameEntry();
@@ -57,6 +58,7 @@ namespace GlobalGameJam2018
 
         private void btnNext_Click(object sender, EventArgs e)
         {
+            SplashScreen.sfx.controls.play();
             NextSelect();
         }
 
@@ -91,6 +93,7 @@ namespace GlobalGameJam2018
 
         private  void btnBack_Click(object sender, EventArgs e)
         {
+            SplashScreen.sfx.controls.play();
             BackSelect();
         }
 
