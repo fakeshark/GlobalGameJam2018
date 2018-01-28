@@ -34,10 +34,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::GlobalGameJam2018.Properties.Resources.warriorSelect;
-            this.pictureBox1.Location = new System.Drawing.Point(413, 191);
+            this.pictureBox1.Image = global::GlobalGameJam2018.Properties.Resources.diceRoll;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(82, 133);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(226, 270);
+            this.pictureBox1.Size = new System.Drawing.Size(775, 395);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

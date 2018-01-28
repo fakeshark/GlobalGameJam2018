@@ -64,8 +64,7 @@ namespace GlobalGameJam2018
         }
 
         private void btn2PlayerStart_Click(object sender, EventArgs e)
-        {
-            
+        {            
             this.Hide();
             PlayerSelection TwoPlayerGame = new PlayerSelection(true);
             TwoPlayerGame.Closed += (s, args) => this.Close();

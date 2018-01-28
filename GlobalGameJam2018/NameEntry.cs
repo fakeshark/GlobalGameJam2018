@@ -80,7 +80,11 @@ namespace GlobalGameJam2018
                 case "SAVE":
                     if (playerName != "")
                     {
-                        MessageBox.Show("Your name will be saved as: " + playerName);
+                        this.Hide();
+                        bgm.controls.stop();
+                        MainGame MainGameMap = new MainGame();
+                        MainGameMap.Closed += (s, args) => this.Close();
+                        MainGameMap.Show();
                     }                    
                     break;
             }

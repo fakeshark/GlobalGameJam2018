@@ -293,6 +293,16 @@ namespace GlobalGameJam2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diceRoll {
+            get {
+                object obj = ResourceManager.GetObject("diceRoll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dot {
             get {
                 object obj = ResourceManager.GetObject("dot", resourceCulture);
@@ -576,6 +586,16 @@ namespace GlobalGameJam2018.Properties {
         internal static System.Drawing.Bitmap T {
             get {
                 object obj = ResourceManager.GetObject("T", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terrainDirtAndRocks {
+            get {
+                object obj = ResourceManager.GetObject("terrainDirtAndRocks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

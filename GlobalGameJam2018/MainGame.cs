@@ -16,5 +16,15 @@ namespace GlobalGameJam2018
         {
             InitializeComponent();
         }
+
+        private void MainGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuitGame_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
